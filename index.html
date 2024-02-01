@@ -1,0 +1,389 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<!-- saved from url=(0035)https://cv.snu.ac.kr/research/EOPSN/ -->
+
+<!-- This templete is borrowed from AR-NET  -->
+
+<html><head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><script src="./jsapi" type="text/javascript"></script>
+<script type="text/javascript">google.load("jquery", "1.3.2");</script>
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+       <link rel="shortcut icon" href="favicon.ico">
+       <link rel="icon" href="favicon.ico">
+
+<style type="text/css">
+  body {
+    font-family: "Titillium Web","HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-weight:300;
+    font-size:18px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1100px;
+  }
+
+  h1 {
+    font-weight:300;
+  }
+
+  .disclaimerbox {
+    background-color: #eee;
+    border: 1px solid #eeeeee;
+    border-radius: 10px ;
+    -moz-border-radius: 10px ;
+    -webkit-border-radius: 10px ;
+    padding: 20px;
+  }
+
+  .row {
+    display: flex;
+  }
+
+  .column {
+    flex: 50%;
+    /* padding: 5px; */
+  }
+
+  video.header-vid {
+    height: 140px;
+    border: 1px solid black;
+    border-radius: 10px ;
+    -moz-border-radius: 10px ;
+    -webkit-border-radius: 10px ;
+  }
+
+  img.header-img {
+    height: 140px;
+    border: 1px solid black;
+    border-radius: 10px ;
+    -moz-border-radius: 10px ;
+    -webkit-border-radius: 10px ;
+  }
+
+  img.rounded {
+    border: 1px solid #eeeeee;
+    border-radius: 10px ;
+    -moz-border-radius: 10px ;
+    -webkit-border-radius: 10px ;
+  }
+
+  a:link,a:visited
+  {
+    color: #1367a7;
+    text-decoration: none;
+  }
+  a:hover {
+    color: #208799;
+  }
+
+  td.dl-link {
+    height: 160px;
+    text-align: center;
+    font-size: 22px;
+  }
+
+  .layered-paper-big { /* modified from: http://css-tricks.com/snippets/css/layered-paper/ */
+    box-shadow:
+            0px 0px 1px 1px rgba(0,0,0,0.35), /* The top layer shadow */
+            5px 5px 0 0px #fff, /* The second layer */
+            5px 5px 1px 1px rgba(0,0,0,0.35), /* The second layer shadow */
+            10px 10px 0 0px #fff, /* The third layer */
+            10px 10px 1px 1px rgba(0,0,0,0.35), /* The third layer shadow */
+            15px 15px 0 0px #fff, /* The fourth layer */
+            15px 15px 1px 1px rgba(0,0,0,0.35), /* The fourth layer shadow */
+            20px 20px 0 0px #fff, /* The fifth layer */
+            20px 20px 1px 1px rgba(0,0,0,0.35), /* The fifth layer shadow */
+            25px 25px 0 0px #fff, /* The fifth layer */
+            25px 25px 1px 1px rgba(0,0,0,0.35); /* The fifth layer shadow */
+    margin-left: 10px;
+    margin-right: 45px;
+  }
+
+
+  .layered-paper { /* modified from: http://css-tricks.com/snippets/css/layered-paper/ */
+    box-shadow:
+            0px 0px 1px 1px rgba(0,0,0,0.35), /* The top layer shadow */
+            5px 5px 0 0px #fff, /* The second layer */
+            5px 5px 1px 1px rgba(0,0,0,0.35), /* The second layer shadow */
+            10px 10px 0 0px #fff, /* The third layer */
+            10px 10px 1px 1px rgba(0,0,0,0.35); /* The third layer shadow */
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-right: 30px;
+    margin-bottom: 5px;
+  }
+
+  .vert-cent {
+    position: relative;
+      top: 50%;
+      transform: translateY(-50%);
+  }
+
+  hr
+  {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+  }
+</style>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-1EPXKPNLQ9"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+        gtag('config', 'G-1EPXKPNLQ9');
+</script>
+<script type="text/javascript" src="./hidebib.js"></script>
+<link href="./css" rel="stylesheet" type="text/css">
+    <title>Opening Up Open World Tracking</title>
+    <meta property="og:title" content="Opening Up Open World Tracking">
+    <meta property="og:description" content="Liu, Zulfikar etc. Opening Up Open World Tracking. In CVPR, 2022.">
+    <meta property="og:url" content="https://owt.github.io/">
+  </head>
+
+  <body data-new-gr-c-s-check-loaded="14.974.0">
+        <br>
+        <center><span style="font-size:40px;font-weight:bold;color:#182B49">Opening Up Open-World Tracking</span></center> <br>
+
+        <table align="center" width="900px">
+          <tbody><tr>
+            <td align="center" width="80px">
+                <center><span style="font-size:20px"><a href="https://github.com/YangLiu14" target="_blank">Yang Liu</a><sup>1,<span style="color:red;">*</span></sup></span></center></td>
+            <td align="center" width="80px">
+                <center><span style="font-size:20px"><a href="https://www.vision.rwth-aachen.de/person/245/" target="_blank">Idil Esen Zulfikar</a><sup>2,<span style="color:red;">*</span></sup></span></center></td>
+            <td align="center" width="80px">
+                <center><span style="font-size:20px"><a href="https://www.vision.rwth-aachen.de/person/216/" target="_blank">Jonathon Luiten</a><sup>2,3,<span style="color:red;">*</span></sup> </span></center></td>
+            <td align="center" width="80px">
+                <center><span style="font-size:20px"><a href="http://www.achaldave.com/" target="_blank">Achal Dave</a><sup>3,<span style="color:red;">*</span></sup></span></center></td>
+          </tr><tr>
+         </tr></tbody></table>
+
+         <table align="center" width="900px">
+           <tbody><tr>
+            <td align="center" width="80px">
+                <center><span style="font-size:20px"><a href="http://www.cs.cmu.edu/~deva/" target="_blank">Deva Ramanan</a><sup>3</sup> </span></center></td>
+            <td align="center" width="80px">
+                 <center><span style="font-size:20px"><a href="https://www.vision.rwth-aachen.de/person/1/" target="_blank">Bastian Leibe</a><sup>2</sup> </span></center></td>
+             <td align="center" width="80px">
+                 <center><span style="font-size:20px"><a href="https://dvl.in.tum.de/team/osep/" target="_blank">Aljoša Ošep</a><sup>1,3</sup></span></center></td>
+             <td align="center" width="80px">
+                 <center><span style="font-size:20px"><a href="https://dvl.in.tum.de/team/lealtaixe/" target="_blank">Laura Leal-Taixé</a><sup>1</sup> </span></center></td>
+           </tr><tr>
+          </tr></tbody></table>
+
+        <table align="center" width="600px">
+          <tbody><tr>
+                <td align="center" width="500px"><center><span style="font-size:20px">Technical University of Munich<sup>1</sup></span></center></td>
+                <td align="center" width="500px"><center><span style="font-size:20px">RWTH Aachen University<sup>2</sup></span></center></td>
+            </tr><tr>
+
+        </tr></tbody>
+        </table>
+
+        <table align="center" width="800px">
+          <tbody><tr>
+                  <td align="center" width="700px"><center><span style="font-size:20px">Carnegie Mellon University<sup>3</sup></span></center></td>
+            </tr><tr>
+        </tr></tbody>
+        </table>
+
+        <table align="center" width="400px">
+          <tbody>
+            <tr>
+            <td align="center" width="150px">
+                <center><span style="font-size:14px"><span style="color:red;">*</span> These authors contributed equally to this work.</span></center>
+            </td></tr>
+          </tbody>
+        </table><br>
+
+          <table align="center" width="400px">
+          <tbody>
+            <tr>
+            <td align="center" width="150px">
+                <center><a href="https://cvpr2022.thecvf.com/" target="_blank"><span style="font-size:32px">CVPR 2022 (Oral)</span></a></center>
+            </td></tr>
+          </tbody>
+        </table>
+
+        <br>
+
+        <table align="center" width="900px">
+          <tbody><tr>
+            <td align="center" width="150px">
+            <center><a href="https://cvpr2022.thecvf.com/" target="_blank"> <img alt="CVPR 2022" src="./assets/figures/logos/cvpr2022.png" width="250"></a></center></td>
+            <td align="center" width="150px">
+            <center><a href="https://dvl.in.tum.de/" target="_blank"> <img alt="TUM" src="./assets/figures/logos/tum.png" width="200"></a></center></td>
+            <td align="center" width="150px">
+            <center><a href="https://www.vision.rwth-aachen.de/" target="_blank"> <img alt="RWTH" src="./assets/figures/logos/rwth.png" width="200"></a></center></td>
+            <td align="center" width="150px">
+            <center><a href="http://www.cs.cmu.edu/~deva/" target="_blank"> <img alt="RWTH" src="./assets/figures/logos/cmu.png" width="100"></a></center></td>
+          </tr></tbody>
+        </table>
+        <br>
+        <table align=center  style="font-size:32px" width="900px">
+        <tr>  
+        <td><a href="https://arxiv.org/pdf/2104.11221.pdf">[Paper]</a></td>
+        <td><a href="https://motchallenge.net/tao_download.php">[Data]</a></td>
+        <td><a href="https://motchallenge.net/data/OWTB/">[Benchmark]</a></td> 
+        <td><a href="https://github.com/YangLiu14/Open-World-Tracking">[Baseline Code]</a></td></center>
+        <td><a href="https://github.com/JonathonLuiten/TrackEval/tree/master/docs/OpenWorldTracking-Official">[Evaluation Code]</a></td>
+        </tr>
+        </table>
+        <br>
+        <center id="abstract"><h1>Abstract</h1></center>
+        <table align="center" width="1000px">
+            <tbody><tr><td width="1000px">
+              <center>
+                <img src="./assets/figures/teaser.png" height="300px" ></a><br></center>
+            </td></tr>
+            </tbody>
+        </table>
+        <br>
+
+        <center>
+        <div style="text-align:justify;width:900px">
+        Tracking and detecting any object, including ones never-seen-before during model training, is a crucial but elusive capability of autonomous systems. An autonomous agent that is blind to never-seen-before objects poses a safety hazard when operating in the real world – and yet this is how almost all current systems work. One of the main obstacles towards advancing tracking any object is that this task is no-toriously difficult to evaluate. A benchmark that would allow us to perform an apples-to-apples comparison of existing efforts is a crucial first step towards advancing this important research field. This paper addresses this evaluation deficit and lays out the landscape and evaluation methodology for detecting and tracking both known and unknown objects in the open-world setting. We propose a new benchmark, TAO-OW: Tracking Any Object in an Open World, analyze existing efforts in multi-object tracking, and construct a baseline for this task while highlighting future challenges. We hope to open a new front in multi-object tracking research that will hopefully bring us a step closer to intelligent systems that can operate safely in the real world.
+        <br>
+        </div>
+        </center>
+        <br>
+
+        <hr>
+        <center id="TAO-OW Benchmark"><h1>TAO-OW Benchmark</h1></center>
+        <center>
+        <div id="tail", class=:column>
+            <img src="./assets/figures/tail.png" height="300px">
+        </div>
+        <br>
+        <div style="text-align:justify; width:900px; font-size:18px">
+              <b>TAO-OW Benchmark</b>. Class distribution of
+              our TAO-OW benchmark (validation set), showing both the
+              known classes for which training data is given, and the unknown classes which are evaluated as a proxy for the infinite
+              variety (unknown unknowns) of objects which could appear
+              in an open-world. Note the y-axis is <b>log-scaled</b>.
+        </div>
+        </center>
+
+        <br>
+
+        <table align="center" width="1000px">
+            <tbody><tr><td width="800px">
+              <center>
+
+
+                  <div id="wordCloud", class="row">
+                      <div id="known-wc", class="column">
+                  	      <img src="./assets/figures/class-word-clouds/known-wc.png">
+                      </div>
+                      <div id="unknown-wc", class=:column>
+                  	      <img src="./assets/figures/class-word-clouds/unknown-wc.png" width="550px">
+                      </div>
+                  </div>
+
+                <br>
+                <div style="text-align:justify; width:900px; font-size:18px">
+                  <b>TAO-OW classes</b>. Word cloud showing
+                  <span style="color:blue;">known</span> (left) and
+                  <span style="color:red;">unknown</span> (right)
+                  classes in our TAO-OW benchmark, with word-size proportional to frequency.
+                </div><br><br>
+
+                  <div id="class_examples", class="row">
+                      <div id="known", class="column">
+                          <img src="./assets/figures/object-categories/known.png" width="450px">
+                          <figcaption>Known</figcaption>
+                      </div>
+                      <div id="unknown", class=:column>
+                          <img src="./assets/figures/object-categories/unknown.png" width="450px">
+                          <figcaption>Unknown</figcaption>
+                      </div>
+                  </div>
+                <br>
+                <div style="text-align:justify; width:900px; font-size:18px">
+                  Examples of  <span style="color:blue;">known</span>  object categories (left) and <span style="color:red;">unknown</span> object categories (right).
+                </div><br>
+              </center>
+            </td></tr>
+          </tbody>
+        </table>
+        <br>
+        <hr>
+
+        <center id="results0"><h1>Open-World Tracking Accuracy (OWTA)</h1></center>
+        <table align="center" width="1000px">
+            <tbody><tr><td width="500px">
+              <center>
+                <div style="text-align:justify; width:900px; font-size:18px">
+                  We propose the OWTA (Open-World Tracking Accuracy) metric for Open-World Tracking,
+                  which is a generalization of the recently proposed HOTA metric for closed-world tracking.
+                  OWTA takes both <b>detection recall (DetRe)</b> and <b>association accuracy (AssA)</b> into account
+                  and combines them into a single score.
+                  <!-- $$ \text{} = \sqrt{ } $$ -->
+                  $$ OWTA_{\alpha} = \sqrt{DetRe_{\alpha} \cdot AssA_{\alpha}} $$
+                  where
+                  $$ DetRe_{\alpha} = \frac{|TP_{\alpha}|}{|TP_{\alpha}| + |FN_{\alpha}|} $$
+                  $$ AssA_{\alpha} = \frac{1}{|TP_{\alpha}|} \sum_{c \in TP_{\alpha}} \frac{TPA_{\alpha}(c)}{TPA_{\alpha}(c) + FPA_{\alpha}(c) + FNA_{\alpha}(c)} $$
+                </div>
+                <br>
+              </center>
+            </td></tr>
+          </tbody></table>
+        <br>
+        <hr>
+
+
+        <center id="results0"><h1>Open-World Tracking Baseline(OWTB)</h1></center>
+        <center id="results0"><h2>OWTB Results on TAO-OW Val- and Test-set</h2></center>
+        <table align="center" width="1000px">
+            <tbody><tr><td width="500px">
+              <center>
+                <img src="./assets/figures/results.png" height="300px">
+              </a><br><br></center>
+              <center>
+              <div style="text-align:justify;width:900px">
+                <b>TAO-OW val-set and TAO-OW test-set.</b> Results of our final Open-World
+                Tracking Baseline (OWTB) compared to previous SOTA
+                trackers on TAO-OW val-set and TAO-OW test-set. <span style="color:red;">*</span>: Non open-world (trained on
+                unknown classes), <span style="color:red;">&#8224</span>: contains overlapping results.
+              </div>
+              </center>
+            </td></tr>
+          </tbody></table>
+        <br>
+        <hr>
+        <center id="overview"><h1>Overview Video</h1></center>
+        <center>
+            <video width="854px" height="480px" controls>
+              <source src="./assets/videos/owt.mp4" type="video/mp4">
+            </video>
+        </center>
+        <br>
+        <hr>
+
+        <center id="sourceCode"><h1>Paper and Code</h1></center>
+
+
+        <table align="center" width="900px">
+            <tbody><tr></tr>
+          <tr>
+            <td>
+            <img class="paperpreview" src="./assets/figures/paper_preview.png" width="200px">
+          </td>
+          <td></td>
+          <td width="700px"> <span style="font-size:20px">
+              Yang Liu<span style="color:red;">*</span> , Idil Esen Zulfikar<span style="color:red;">*</span> , Jonathon Luiten<span style="color:red;">*</span> , Achal Dave<span style="color:red;">*</span> , Deva Ramanan, Bastian Leibe, Aljoša Ošep, Laura Leal-Taixé. <br>
+              <a href="https://openworldtracking.github.io/">Opening up Open-World Tracking</a> <br> <i>Proc. Computer Vision and Pattern Recognition (CVPR)</i>. 2022.<br>
+              [<a href="https://arxiv.org/pdf/2104.11221.pdf">Paper</a>][<a href="https://motchallenge.net/tao_download.php">Data</a>] [<a href="https://motchallenge.net/data/OWTB/">Benchmark</a>] [<a href="https://github.com/YangLiu14/Open-World-Tracking">Baseline Code</a>] [<a href="https://github.com/JonathonLuiten/TrackEval/tree/master/docs/OpenWorldTracking-Official">Evaluation Code</a>]</span>
+        </td>
+        </tr>
+        </tbody></table>
+      <br>
+      <hr>
+      <br>
+    <br><br>
+<script xml:space="preserve" language="JavaScript">
+hideallbibs();
+</script>
+</body></html>
